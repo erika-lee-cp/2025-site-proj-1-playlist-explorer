@@ -4,3 +4,31 @@ body {
     padding: 0;
     background-color: #f8f8f8;
 }
+
+header {
+    line-height: 2;
+    font-size: 32pt;
+    background-color: lightgrey;
+    height: 100px;
+    padding: 10px;
+}
+
+.playlist-cards {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.playlist-card {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+.playlist-text {
+    padding: 0 10px;
+}
+.playlist-img {
+    width: 200px;
+    border-radius: 16px;
+}
