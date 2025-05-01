@@ -5,6 +5,7 @@
       "playlist_name": "Chill Vibes",
       "playlist_author": "Luna",
       "playlist_art": "https://picsum.photos/200?random=0",
+      "likes": 100,
       "songs": [
         {
           "title": "Ocean Eyes",
@@ -34,6 +35,7 @@
       "playlist_name": "Workout Boost",
       "playlist_author": "Max",
       "playlist_art": "https://picsum.photos/200?random=1",
+      "likes": 0, 
       "songs": [
         {
           "title": "Stronger",
@@ -63,6 +65,7 @@
       "playlist_name": "Throwback Hits",
       "playlist_author": "Ava",
       "playlist_art": "https://picsum.photos/200?random=2",
+      "likes": 5,
       "songs": [
         {
           "title": "No Scrubs",
@@ -92,6 +95,7 @@
       "playlist_name": "Sunday Morning",
       "playlist_author": "Leo",
       "playlist_art": "https://picsum.photos/200?random=3",
+      "likes": 12,
       "songs": [
         {
           "title": "Banana Pancakes",
@@ -121,6 +125,7 @@
       "playlist_name": "Focus Mode",
       "playlist_author": "Mira",
       "playlist_art": "https://picsum.photos/200?random=4",
+      "likes": 1020,
       "songs": [
         {
           "title": "Time",
@@ -150,6 +155,7 @@
       "playlist_name": "Late Night Drive",
       "playlist_author": "Zane",
       "playlist_art": "https://picsum.photos/200?random=5",
+      "likes": 340,
       "songs": [
         {
           "title": "Drive",

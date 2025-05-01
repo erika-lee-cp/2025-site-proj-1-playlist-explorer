@@ -47,6 +47,7 @@ fetch(
         for (const playlist of data.playlists) {
             let playlistContainer = document.createElement('div');
             playlistContainer.className = "playlist-card";
+            playlistContainer.setAttribute('data-likes', playlist.likes);
             playlistContainer.innerHTML = 
             `<img class="playlist-img" src="${playlist.playlist_art}"/>
                 <div class="playlist-text">
@@ -54,13 +55,24 @@ fetch(
                     <div>${playlist.playlist_author}</div>
                     <div>
                         <img class="like-button" src="assets/heart.svg"/>
-                        <span>5</span>
+                        <span class="num-likes">${playlist.likes}</span>
                     </div>
                 </div>`;
             playlistContainer.addEventListener('click', () => {
                 openModal(playlist);
             });
+            let likeBtn = playlistContainer.getElementsByClassName("like-button")[0];
+            likeBtn.addEventListener('click', (event) => {
+                event.stopPropagation();
+                let currentSrc = likeBtn.src.endsWith("assets/heart.svg");
+                likeBtn.src = currentSrc ? "assets/heart-red.svg": "assets/heart.svg";
+                const numLikes = currentSrc ? parseInt(playlistContainer.dataset.likes) + 1 : parseInt(playlistContainer.dataset.likes) - 1;
+                playlistContainer.setAttribute('data-likes', numLikes); 
+                const likesEl = playlistContainer.getElementsByClassName('num-likes')[0];
+                likesEl.textContent = numLikes;
+            });
             mainContainer.appendChild(playlistContainer);
+            
         }
       })
       .catch(error => {

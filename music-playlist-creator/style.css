@@ -39,6 +39,9 @@ header {
 .like-button{
     width: 16px;
 }
+.like-button:hover{
+    width: 20px;
+}
 .bold {
     font-weight: bold;
 }
