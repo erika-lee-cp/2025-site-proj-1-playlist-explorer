@@ -1,0 +1,178 @@
+{
+  "playlists": [
+    {
+      "playlistID": "pl001",
+      "playlist_name": "Chill Vibes",
+      "playlist_author": "Luna",
+      "playlist_art": "https://picsum.photos/200?random=0",
+      "songs": [
+        {
+          "title": "Ocean Eyes",
+          "artist": "Billie Eilish",
+          "album": "Don't Smile at Me",
+          "duration": "3:20",
+          "art": "https://picsum.photos/100?random=0"
+        },
+        {
+          "title": "Sunset Lover",
+          "artist": "Petit Biscuit",
+          "album": "Presence",
+          "duration": "3:58",
+          "art": "https://picsum.photos/100?random=1"
+        },
+        {
+          "title": "Weightless",
+          "artist": "Marconi Union",
+          "album": "Weightless (Ambient Transmissions Vol 2)",
+          "duration": "8:00",
+          "art": "https://picsum.photos/100?random=2"
+        }
+      ]
+    },
+    {
+      "playlistID": "pl002",
+      "playlist_name": "Workout Boost",
+      "playlist_author": "Max",
+      "playlist_art": "https://picsum.photos/200?random=1",
+      "songs": [
+        {
+          "title": "Stronger",
+          "artist": "Kanye West",
+          "album": "Graduation",
+          "duration": "5:12",
+          "art": "https://picsum.photos/100?random=3"
+        },
+        {
+          "title": "POWER",
+          "artist": "Kanye West",
+          "album": "My Beautiful Dark Twisted Fantasy",
+          "duration": "3:41",
+          "art": "https://picsum.photos/100?random=4"
+        },
+        {
+          "title": "Can't Hold Us",
+          "artist": "Macklemore & Ryan Lewis",
+          "album": "The Heist",
+          "duration": "4:18",
+          "art": "https://picsum.photos/100?random=5"
+        }
+      ]
+    },
+    {
+      "playlistID": "pl003",
+      "playlist_name": "Throwback Hits",
+      "playlist_author": "Ava",
+      "playlist_art": "https://picsum.photos/200?random=2",
+      "songs": [
+        {
+          "title": "No Scrubs",
+          "artist": "TLC",
+          "album": "FanMail",
+          "duration": "3:39",
+          "art": "https://picsum.photos/100?random=6"
+        },
+        {
+          "title": "Bye Bye Bye",
+          "artist": "*NSYNC",
+          "album": "No Strings Attached",
+          "duration": "3:20",
+          "art": "https://picsum.photos/100?random=7"
+        },
+        {
+          "title": "Toxic",
+          "artist": "Britney Spears",
+          "album": "In the Zone",
+          "duration": "3:19",
+          "art": "https://picsum.photos/100?random=8"
+        }
+      ]
+    },
+    {
+      "playlistID": "pl004",
+      "playlist_name": "Sunday Morning",
+      "playlist_author": "Leo",
+      "playlist_art": "https://picsum.photos/200?random=3",
+      "songs": [
+        {
+          "title": "Banana Pancakes",
+          "artist": "Jack Johnson",
+          "album": "In Between Dreams",
+          "duration": "3:11",
+          "art": "https://picsum.photos/100?random=9"
+        },
+        {
+          "title": "Budapest",
+          "artist": "George Ezra",
+          "album": "Wanted on Voyage",
+          "duration": "3:20",
+          "art": "https://picsum.photos/100?random=10"
+        },
+        {
+          "title": "Put Your Records On",
+          "artist": "Corinne Bailey Rae",
+          "album": "Corinne Bailey Rae",
+          "duration": "3:35",
+          "art": "https://picsum.photos/100?random=11"
+        }
+      ]
+    },
+    {
+      "playlistID": "pl005",
+      "playlist_name": "Focus Mode",
+      "playlist_author": "Mira",
+      "playlist_art": "https://picsum.photos/200?random=4",
+      "songs": [
+        {
+          "title": "Time",
+          "artist": "Hans Zimmer",
+          "album": "Inception",
+          "duration": "4:35",
+          "art": "https://picsum.photos/100?random=12"
+        },
+        {
+          "title": "Rain",
+          "artist": "Brian Eno",
+          "album": "Ambient 1: Music for Airports",
+          "duration": "5:42",
+          "art": "https://picsum.photos/100?random=13"
+        },
+        {
+          "title": "Night Owl",
+          "artist": "Gerry Rafferty",
+          "album": "Night Owl",
+          "duration": "5:11",
+          "art": "https://picsum.photos/100?random=14"
+        }
+      ]
+    },
+    {
+      "playlistID": "pl006",
+      "playlist_name": "Late Night Drive",
+      "playlist_author": "Zane",
+      "playlist_art": "https://picsum.photos/200?random=5",
+      "songs": [
+        {
+          "title": "Drive",
+          "artist": "Incubus",
+          "album": "Make Yourself",
+          "duration": "3:52",
+          "art": "https://picsum.photos/100?random=15"
+        },
+        {
+          "title": "Nightcall",
+          "artist": "Kavinsky",
+          "album": "OutRun",
+          "duration": "4:18",
+          "art": "https://picsum.photos/100?random=16"
+        },
+        {
+          "title": "Electric Feel",
+          "artist": "MGMT",
+          "album": "Oracular Spectacular",
+          "duration": "3:50",
+          "art": "https://picsum.photos/100?random=17"
+        }
+      ]
+    }
+  ]
+}

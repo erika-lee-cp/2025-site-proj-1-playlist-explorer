@@ -8,9 +8,10 @@ body {
 header {
     line-height: 2;
     font-size: 32pt;
-    background-color: lightgrey;
     height: 100px;
     padding: 10px;
+    background-color: black;
+    color: white;
 }
 
 .playlist-cards {
@@ -45,9 +46,10 @@ header {
 footer {
     line-height: 1;
     font-size: 12pt;
-    background-color: lightgrey;
     height: 30px;
     padding: 10px;
+    background-color: black;
+    color: white;
 }
 
 #playlist-info-container {
