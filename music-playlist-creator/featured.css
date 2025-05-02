@@ -1,0 +1,13 @@
+#featured {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+#featured-img {
+    width: 30%;
+    border-radius: 8px;
+}
+#songs-container {
+    width: 50%;
+}

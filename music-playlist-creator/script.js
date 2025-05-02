@@ -1,15 +1,34 @@
-// JavaScript for Opening and Closing the Modal
 var modal = document.getElementById("playlist-modal");
 var span = document.getElementsByClassName("close")[0];
 
 function openModal(playlist) {
-    console.log(playlist)
     document.getElementById('playlist-title').innerText = playlist.playlist_name;
     document.getElementById('playlist-creator').innerText = playlist.playlist_author;
     document.getElementById('playlist-cover-img').src = playlist.playlist_art;
 
+    var shuffle = document.getElementById("shuffle-btn");
+    drawSongs(playlist.songs);    
+    
+    shuffle.addEventListener('click', () => {
+        const songsList = shuffleSongs(playlist.songs);
+        drawSongs(songsList);
+    });
+    
+    modal.style.display = "block";
+}
+
+const shuffleSongs = (songs) => {
+    for (let i = songs.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [songs[i], songs[j]] = [songs[j], songs[i]];
+    }
+    return songs;
+}
+
+const drawSongs = (songsList) => {
     const songsContainer = document.getElementsByClassName("songs-container")[0];
-    for(const song of playlist.songs) {
+    songsContainer.innerHTML = '';
+    for(const song of songsList) {
         let songsEl = document.createElement('div');
         songsEl.className = "song-item";
         songsEl.innerHTML = 
@@ -21,8 +40,7 @@ function openModal(playlist) {
                 </div>
                 <div class="duration">${song.duration}</div>`;
             songsContainer.appendChild(songsEl);  
-    }      
-   modal.style.display = "block";
+    }
 }
 
 span.onclick = function() {
